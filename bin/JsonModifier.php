@@ -16,7 +16,7 @@
 
 		public function __construct ($file)
 		{
-			$file = str_replace(['/', '\\'], DS, ROOT.$file);
+			$file = str_replace(['/', '\\'], DIRECTORY_SEPARATOR, $file);
 
 			$this->file = file_get_contents($file);
 			$this->filePath = $file;
