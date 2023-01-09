@@ -1,7 +1,7 @@
 ## JsonModifier
-JsonModifier was created to help php developers modify Json files by performing _CRUD_ and data lookup operations.
+JsonModifier was created to help php developers modify Json files by performing **_CRUD_** and data lookup operations.
 
-> Note: The file should have a valid JSON format like the following example.
+> __Note:__ The file should have a valid JSON format like the following example.
 ``` json
 [
    {
