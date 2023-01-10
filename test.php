@@ -3,7 +3,7 @@
 	require ('bin/JsonModifier.php');
 
 	$json = new System\Json\JsonModifier('json/items.json');
-
+	
 	// Get all items
 	$data = $json->index('items')
 	             ->get();

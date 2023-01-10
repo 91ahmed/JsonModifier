@@ -1,1 +1,50 @@
-[{"items":[{"item_id":"1","item_sku":"C722E148442B","item_name":"original t-shirt with 3 stripes and central logo in white","item_unitprice":"240.00","item_quantity":"120","item_color":"#F28D20","item_details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.","item_image":"e3ef2db8d203e9e88d089a87e0cb337d.jpeg","item_added":"2020-06-07"},{"item_id":"2","item_sku":"FA7DA20DB766","item_name":"Tiger-embroidered Cotton Polo Shirt - Black","item_unitprice":"123.00","item_quantity":"40","item_color":"#262626","item_details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.","item_image":"dbca1c9a6fc6cef4563ff3eee2224994.jpeg","item_added":"2020-06-16"},{"item_id":"3","item_sku":"98CBE5C80D51","item_name":"White t-shirt original new style","item_unitprice":"224.50","item_quantity":"22","item_color":"#fff","item_details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.","item_image":"0df8c151fb93de5f0eb0d919889427ec.jpeg","item_added":"2020-06-16"},{"item_id":"4","item_sku":"1A4AB1D7A06F","item_name":"Short Sleeve Logo Patch Polo Shirt - Orange","item_unitprice":"190.00","item_quantity":"133","item_color":"#f47174","item_details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.","item_image":"ad2e3d44c51b19ab652b2624156c4c9c.jpeg","item_added":"2020-06-16"},{"item_id":"10","item_name":"black shirt"},{"item_id":"10","item_name":"black shirt"},{"item_id":"10","item_name":"black shirt"}]}]
+[
+   {
+      "items":[
+         {
+            "item_id":"1",
+            "item_sku":"C722E148442B",
+            "item_name":"original t-shirt with 3 stripes and central logo in white",
+            "item_unitprice":"240.00",
+            "item_quantity":"120",
+            "item_color":"#F28D20",
+            "item_details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "item_image":"e3ef2db8d203e9e88d089a87e0cb337d.jpeg",
+            "item_added":"2020-06-07"
+         },
+         {
+            "item_id":"2",
+            "item_sku":"FA7DA20DB766",
+            "item_name":"Tiger-embroidered Cotton Polo Shirt - Black",
+            "item_unitprice":"123.00",
+            "item_quantity":"40",
+            "item_color":"#262626",
+            "item_details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "item_image":"dbca1c9a6fc6cef4563ff3eee2224994.jpeg",
+            "item_added":"2020-06-16"
+         },
+         {
+            "item_id":"3",
+            "item_sku":"98CBE5C80D51",
+            "item_name":"White t-shirt original new style",
+            "item_unitprice":"223.00",
+            "item_quantity":"22",
+            "item_color":"#ecf0f1",
+            "item_details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "item_image":"0df8c151fb93de5f0eb0d919889427ec.jpeg",
+            "item_added":"2020-06-16"
+         },
+         {
+            "item_id":"4",
+            "item_sku":"1A4AB1D7A06F",
+            "item_name":"Short Sleeve Logo Patch Polo Shirt - Orange",
+            "item_unitprice":"190.00",
+            "item_quantity":"133",
+            "item_color":"#f47174",
+            "item_details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+            "item_image":"ad2e3d44c51b19ab652b2624156c4c9c.jpeg",
+            "item_added":"2020-06-16"
+         }
+      ]
+   }
+]

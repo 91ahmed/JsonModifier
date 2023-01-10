@@ -74,7 +74,7 @@ $search = $json->index('items')
 ```
 
 ##### Search First
-> to get single item.
+> Get single item.
 ``` php
 // Search for items where "item_id" = 3
 $search = $json->index('items')

@@ -124,43 +124,4 @@
 			return $this->data[$index];
 		}
 	}
-
-
-	/** ADD
-	$json = new JsonModifier('json/products.json');
-	$data = $json->index('products')
-				 ->add([
-				   	 "serial" => "6",
-					 "product_name" => "cocakola"
-				 ]);
-	**/
-
-	/** SEARCH
-	$json = new JsonModifier('json/products.json');
-	$data = $json->index('products')
-				 ->search(['serial' => '5'])
-				 ->get();
-	**/
-
-	/** SEARCH (Get Single Element)
-	$json = new JsonModifier('json/products.json');
-	$data = $json->index('products')
-				 ->search(['serial' => '5'])
-				 ->first();
-	**/
-
-	/** UPDATE
-	$json = new JsonModifier('json/products.json');
-	$data = $json->index('products')
-				 ->update(
-					 array('serial', '6'), // condition (WHERE serial = 6)
-					 array('product_name', 'newname') // set new update (SET name = newname)
-				 );
-	**/
-
-	/** DELETE
-	$json = new JsonModifier('json/products.json');
-	$data = $json->index('products')
-				 ->delete(['serial', '6']);
-	**/
 ?>
