@@ -1,5 +1,5 @@
 {
-    "name": "phpjsonmodifier/php-json-modifier",
+    "name": "phpjsonmodifier/phpjsonmodifier-package",
     "description": "a php package allows developers to manipulate JSON files by performing data lookup and many other operations such as read, write, delete and update.",
     "keywords": ["phpjson","json-parser","json-modifier"],
     "license": "MIT",
