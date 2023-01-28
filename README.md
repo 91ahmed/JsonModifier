@@ -21,7 +21,7 @@ JsonModifier was created to help php developers modify Json files by performing 
 ]
 ```
 
-#### Install
+#### Install via composer
 ```
 
 ```
@@ -32,7 +32,7 @@ JsonModifier was created to help php developers modify Json files by performing 
 require ('vendor/autoload.php');
 
 // Create new instance
-// The construct method take one argument which is the JSON file location.
+// The construct method take one argument which is the JSON file path.
 $json = new PhpJsonModifier\JsonModifier('json/items.json');
 
 // Start performing your operations.
@@ -69,7 +69,7 @@ $add = $json->index('items')
             ]);
 ```
 
-> Search for spicifc items.
+> Search for all items.
 ``` php
 // Search for items where "item_id" = 3
 $search = $json->index('items')
