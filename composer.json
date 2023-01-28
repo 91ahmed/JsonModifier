@@ -1,7 +1,6 @@
 {
-    "name": "phpjsonmodifier/pjson-modifier",
-    "description": "a php package allows developers to manipulate JSON files by performing data lookup and many other operations such as read, write, delete and update.",
-    "license": "MIT",
+    "name": "phpjsonmodifier/modifierphpjson",
+    "description": "a php package allows developers to manipulate JSON files by performing data lookup and many other operations such as read, write, delete and update",
     "autoload": {
         "psr-4": {
             "PhpJsonModifier\\": "src/"
@@ -13,7 +12,5 @@
             "email": "ahmedh12491@gmail.com"
         }
     ],
-    "require": {
-        "php": ">=7.0.0"
-    }
+    "require": {}
 }
