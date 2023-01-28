@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "php": ">=7.0",
-        "phpjsoncontrol/json-control": "1.0.@dev"
-    }
+        "php": ">=7.0"
+    },
+    "minimum-stability": "dev"
 }
