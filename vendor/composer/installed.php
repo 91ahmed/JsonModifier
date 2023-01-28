@@ -5,18 +5,18 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '41a881806928c948d1b7e094b0166a13913fdb9e',
-        'name' => 'phpjsonmodifier/pjson-modifier',
+        'reference' => 'bd4baa1148f1783710b64451d4d8dddf40ba06c3',
+        'name' => 'phpjsoncontrol/json-control',
         'dev' => true,
     ),
     'versions' => array(
-        'phpjsonmodifier/pjson-modifier' => array(
+        'phpjsoncontrol/json-control' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '41a881806928c948d1b7e094b0166a13913fdb9e',
+            'reference' => 'bd4baa1148f1783710b64451d4d8dddf40ba06c3',
             'dev_requirement' => false,
         ),
     ),

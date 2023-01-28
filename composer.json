@@ -1,5 +1,5 @@
 {
-    "name": "jsonphpmodifier/json-modifier",
+    "name": "phpjsoncontrol/json-control",
     "autoload": {
         "psr-4": {
             "PhpJsonModifier\\": "src/"
