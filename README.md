@@ -24,7 +24,7 @@ JsonModifier was created to help php developers modify Json files by performing 
 ### Install
 via composer
 ```
-composer require phpjsoncontrol/json-control
+composer require jsoncontrol/php-json-control
 ```
 
 ### How to Use
