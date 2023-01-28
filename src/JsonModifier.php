@@ -1,6 +1,6 @@
 <?php
 	
-	namespace System\Json;
+	namespace PhpJsonModifier;
 
 	/**
 	 *	Export data from json file.

@@ -1,8 +1,8 @@
 <?php
 	
-	require ('bin/JsonModifier.php');
+	require ('../vendor/autoload.php');
 
-	$json = new System\Json\JsonModifier('json/items.json');
+	$json = new PhpJsonModifier\JsonModifier(__DIR__.'/json/items.json');
 	
 	// Get all items
 	$data = $json->index('items')
