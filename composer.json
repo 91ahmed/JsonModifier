@@ -1,6 +1,5 @@
 {
-    "name": "phpjsonmodifier/modifierphpjson",
-    "description": "a php package allows developers to manipulate JSON files by performing data lookup and many other operations such as read, write, delete and update",
+    "name": "ahmed/json-modifier",
     "autoload": {
         "psr-4": {
             "PhpJsonModifier\\": "src/"
@@ -8,7 +7,7 @@
     },
     "authors": [
         {
-            "name": "ahmed hassan",
+            "name": "91ahmed",
             "email": "ahmedh12491@gmail.com"
         }
     ],
