@@ -1,5 +1,7 @@
 {
     "name": "phpjsoncontrol/json-control",
+    "description": "PHP package allows developers to manipulate JSON files by performing data lookup and many other operations such as read, write, delete and update.",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "PhpJsonModifier\\": "src/"
@@ -11,5 +13,7 @@
             "email": "ahmedh12491@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.0"
+    }
 }
