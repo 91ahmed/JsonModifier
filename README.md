@@ -24,12 +24,7 @@ JsonModifier was created to help php developers modify Json files by performing 
 ### Install
 via composer
 ```
-The composer package will be ready as soon as possible.
-```
-
-You can clone git repository or download the zip file.
-```
-git clone https://github.com/91ahmed/JsonModifier.git
+composer require phpjsoncontrol/json-control
 ```
 
 ### How to Use
