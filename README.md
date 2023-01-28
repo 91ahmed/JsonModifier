@@ -21,18 +21,18 @@ JsonModifier was created to help php developers modify Json files by performing 
 ]
 ```
 
-#### Install
+### Install
 via composer
 ```
 The composer package will be ready as soon as possible.
 ```
 
-clone git repository or download the zip file.
+You can clone git repository or download the zip file.
 ```
 git clone https://github.com/91ahmed/JsonModifier.git
 ```
 
-#### How to Use
+### How to Use
 ``` php
 // Import vendor/autoload file
 require ('vendor/autoload.php');
