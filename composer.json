@@ -1,17 +1,17 @@
 {
     "name": "php-json/json-modifier",
     "description": "PHP package allows developers to manipulate JSON files by performing data lookup and many other operations such as read, write, delete and update.",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "PhpJsonModifier\\": "src/"
         }
     },
-    "version": "1.0.0",
     "authors": [
         {
             "name": "91ahmed",
             "email": "ahmedh12491@gmail.com"
         }
     ],
-    "minimum-stability": "dev-master"
+    "minimum-stability": "dev"
 }
