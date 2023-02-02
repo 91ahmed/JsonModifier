@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
+        'name' => 'php-json/json-modifier',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
+        'reference' => '3b16b6d0e320ebae2663b8213d85aceeb35bcaa9',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '4645d4e00857fa70d8bca1a8deb14405373a8653',
-        'name' => 'phpjsoncontrol/json-control',
         'dev' => true,
     ),
     'versions' => array(
-        'phpjsoncontrol/json-control' => array(
+        'php-json/json-modifier' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
+            'reference' => '3b16b6d0e320ebae2663b8213d85aceeb35bcaa9',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '4645d4e00857fa70d8bca1a8deb14405373a8653',
             'dev_requirement' => false,
         ),
     ),
