@@ -1,5 +1,5 @@
 {
-    "name": "jsoncontrol/php-json-control",
+    "name": "jsonmodifier/json-modifier",
     "description": "PHP package allows developers to manipulate JSON files by performing data lookup and many other operations such as read, write, delete and update.",
     "autoload": {
         "psr-4": {
