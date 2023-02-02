@@ -6,6 +6,7 @@
             "PhpJsonModifier\\": "src/"
         }
     },
+    "version": "1.0.0",
     "authors": [
         {
             "name": "91ahmed",
