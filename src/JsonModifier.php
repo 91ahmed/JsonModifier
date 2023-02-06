@@ -1,11 +1,12 @@
 <?php
 	
-	namespace PhpJsonModifier;
+	namespace Json;
 
 	/**
-	 *	Export data from json file.
+	 *	PHP class for modifying JSON files.
 	 *
-	 *	@author (Ahmed Hassan)
+	 *	@author (ahmed hassan)
+	 *	@link https://91ahmed.github.com
 	 */
 	class JsonModifier
 	{

@@ -34,7 +34,7 @@ require ('vendor/autoload.php');
 
 // Create new instance
 // The construct method take one argument which is the JSON file path.
-$json = new PhpJsonModifier\JsonModifier('json/items.json');
+$json = new Json\JsonModifier('json/items.json');
 
 // Start performing your operations.
 $data = $json->index('items')
