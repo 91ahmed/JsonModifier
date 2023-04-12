@@ -30,7 +30,7 @@ composer require jsonmodifier/json
 ### How to Use
 ``` php
 // Import vendor/autoload file
-require ('vendor/autoload.php');
+require ('vendor/autoload.php'); 
 
 // Create new instance
 // The construct method take one argument which is the JSON file path.
