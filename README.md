@@ -1,5 +1,3 @@
-To enhance the professionalism and clarity of the `JsonModifier` repository's README, consider the following structured template:
-
 # JsonModifier
 
 **JsonModifier** is a PHP package designed to assist developers in manipulating JSON files. It offers a range of operations, including data lookup, reading, adding, deleting, and updating JSON data.
