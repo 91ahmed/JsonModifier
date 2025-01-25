@@ -1,87 +1,115 @@
-## JsonModifier
-JsonModifier was created to help php developers modify Json files by performing **_CRUD_** and data lookup operations.
+To enhance the professionalism and clarity of the `JsonModifier` repository's README, consider the following structured template:
 
-> __Note:__ To avoid any errors the JSON file you need to process should have a valid format, like the following example.
-``` json
-[
-   {
-      "items":[
-         {
-            "id":"1",
-            "name":"original t-shirt",
-            "unitprice":"240.00"
-         },
-         {
-            "id":"2",
-            "name":"Cotton Polo Shirt",
-            "unitprice":"123.00"
-         }
-      ]
-   }
-]
-```
+# JsonModifier
 
-### Install
-via composer
-```
+**JsonModifier** is a PHP package designed to assist developers in manipulating JSON files. It offers a range of operations, including data lookup, reading, adding, deleting, and updating JSON data.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Retrieving Data](#retrieving-data)
+  - [Updating Data](#updating-data)
+  - [Adding Data](#adding-data)
+  - [Searching Data](#searching-data)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+Install the package via Composer:
+
+```bash
 composer require jsonmodifier/json
 ```
 
-### How to Use
-``` php
-// Import vendor/autoload file
-require ('vendor/autoload.php'); 
+## Usage
 
-// Create new instance
-// The construct method take one argument which is the JSON file path.
-$json = new PhpJsonModifier\JsonModifier('json/items.json');
+First, include the Composer autoload file and create a new instance of `JsonModifier` by providing the path to your JSON file:
 
-// Start performing your operations.
-$data = $json->index('items')
-             ->get();
+```php
+require 'vendor/autoload.php';
+
+use PhpJsonModifier\JsonModifier;
+
+$json = new JsonModifier('path/to/your/jsonfile.json');
 ```
 
-> Retrieve all data from json file.
-``` php
-$data = $json->index('items')
-             ->get();
+### Retrieving Data
+
+To retrieve all data from a specific index:
+
+```php
+$data = $json->index('items')->get();
 ```
 
-> Update data.
-``` php
-// Update item unitprice and color where "item_id" = 3
-$update = $json->index('items')
-               ->update(
-                   array('item_id', '3'), // condition (WHERE item_id = 3)
-                   array(
-                        ['item_unitprice' => '224.50'],
-                        ['item_color' => '#fff']
-                   )
+### Updating Data
+
+To update specific fields where a condition is met:
+
+```php
+$update = $json->index('items')->update(
+    ['id', '3'], // Condition: WHERE id = 3
+    [
+        ['unitprice' => '224.50'],
+        ['color' => '#fff']
+    ]
 );
 ```
 
-> Add new object.
-``` php
-// Add new item
-$add = $json->index('items')
-            ->add([
-                "item_id" => "10",
-                "item_name" => "black shirt"
-            ]);
+### Adding Data
+
+To add a new item to the JSON file:
+
+```php
+$add = $json->index('items')->add([
+    "id" => "10",
+    "name" => "black shirt",
+    "unitprice" => "150.00"
+]);
 ```
 
-> Search for all items.
-``` php
-// Search for items where "item_id" = 3
-$search = $json->index('items')
-               ->search(['item_id' => '3']) // condition (WHERE item_id = 3)
-               ->get();
+### Searching Data
+
+To search for items matching specific criteria:
+
+```php
+$search = $json->index('items')->search(['id' => '2'])->get();
 ```
 
-> Search first to get single item.
-``` php
-// Search for items where "item_id" = 3
-$search = $json->index('items')
-               ->search(['item_id' => '2']) // condition (WHERE item_id = 3)
-               ->first();
+To retrieve the first item that matches the criteria:
+
+```php
+$search = $json->index('items')->search(['id' => '2'])->first();
+```
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request with your proposed changes. Ensure that your code adheres to the project's coding standards and includes appropriate tests.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+*Note: Ensure that your JSON files are properly formatted to prevent errors. Here's an example of a valid JSON structure:*
+
+```json
+[
+    {
+        "items": [
+            {
+                "id": "1",
+                "name": "original t-shirt",
+                "unitprice": "240.00"
+            },
+            {
+                "id": "2",
+                "name": "Cotton Polo Shirt",
+                "unitprice": "123.00"
+            }
+        ]
+    }
+]
 ```
